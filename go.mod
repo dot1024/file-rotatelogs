@@ -1,4 +1,4 @@
-module github.com/lestrrat-go/file-rotatelogs
+module github.com/lestrrat-go/file-rotatelogs/v2
 
 go 1.12
 
