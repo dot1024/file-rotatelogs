@@ -15,7 +15,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 
-	rotatelogs "github.com/dot1024/file-rotatelogs"
+	rotatelogs "github.com/dot1024/file-rotatelogs/v2"
 )
 
 func TestSatisfiesIOWriter(t *testing.T) {

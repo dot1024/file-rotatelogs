@@ -20,7 +20,7 @@ import (
   "net/http"
 
   apachelog "github.com/lestrrat-go/apache-logformat"
-  rotatelogs "github.com/dot1024/file-rotatelogs"
+  rotatelogs "github.com/dot1024/file-rotatelogs/v2"
 )
 
 func main() {
@@ -54,7 +54,7 @@ to setup logrotate!
 To install, simply issue a `go get`:
 
 ```
-go get github.com/dot1024/file-rotatelogs
+go get github.com/dot1024/file-rotatelogs/v2
 ```
 
 It's normally expected that this library is used with some other
@@ -64,7 +64,7 @@ such as `github.com/lestrrat-go/apache-logformat`.
 ```go
 import(
   "log"
-  "github.com/dot1024/file-rotatelogs"
+  "github.com/dot1024/file-rotatelogs/v2"
 )
 
 func main() {

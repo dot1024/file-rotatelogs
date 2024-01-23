@@ -3,7 +3,7 @@ package rotatelogs
 import (
 	"time"
 
-	"github.com/dot1024/file-rotatelogs/internal/option"
+	"github.com/dot1024/file-rotatelogs/v2/internal/option"
 )
 
 const (

@@ -1,4 +1,4 @@
-module github.com/dot1024/file-rotatelogs
+module github.com/dot1024/file-rotatelogs/v2
 
 go 1.12
 
