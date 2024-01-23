@@ -10,9 +10,10 @@ import (
 )
 
 func TestGenFilename(t *testing.T) {
+	tn := time.Time{}
 	// Mock time
 	ts := []time.Time{
-		time.Time{},
+		tn,
 		(time.Time{}).Add(24 * time.Hour),
 	}
 
